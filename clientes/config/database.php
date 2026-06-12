@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
-$dbname = 'agenciarabe_clientes';
-$username = 'SEU_USUARIO'; // Coloque o usuário do banco
-$password = 'SUA_SENHA';   // Coloque a senha do banco
+$dbname = 'edua3680_agenciarabe_clientes';
+$username = 'edua3680_rabe '; // Coloque o usuário do banco
+$password = 'Rabe@2026';   // Coloque a senha do banco
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
